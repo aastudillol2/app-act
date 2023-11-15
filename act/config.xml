@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.cordova.hellocordova" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>ACT App</name>
+    <description>Autoridad de Control de Tránsito</description>
+    <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
+        Grupo de Autoridad de Control de Tránsito
+    </author>
+    <content src="pantprin.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+
+    <icon src="www/img/actcc.jpg" />
+
+    <!-- Configuración del SplashScreen para Android -->
+    <platform name="android">
+        <preference name="SplashScreen" value="screen" />
+        <preference name="SplashScreenDelay" value="3000" /> <!-- Duración del SplashScreen en milisegundos -->
+        <preference name="SplashMaintainAspectRatio" value="true" /> <!-- Mantener la proporción del SplashScreen -->
+        <icon src="res/screen/android/splash.jpg" qualifier="port-ldpi" />
+        <icon src="res/screen/android/splash.jpg" qualifier="port-mdpi" />
+        <icon src="res/screen/android/splash.jpg" qualifier="port-hdpi" />
+        <icon src="res/screen/android/splash.jpg" qualifier="port-xhdpi" />
+        <icon src="res/screen/android/splash.jpg" qualifier="port-xxhdpi" />
+        <icon src="res/screen/android/splash.jpg" qualifier="port-xxxhdpi" />
+    </platform>
+</widget>
